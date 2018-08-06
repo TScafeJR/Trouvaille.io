@@ -79,7 +79,7 @@ export default class RegisterScreen extends React.Component {
          }
       })
       .catch((err) => {
-          console.log('caught error in catch of submt');
+          console.log('caught error in catch of submit\n' + err);
           alert(err)
         /* do something if there was an error with fetching */
       });

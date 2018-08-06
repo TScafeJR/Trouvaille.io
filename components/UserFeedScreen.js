@@ -56,7 +56,6 @@ export default class UserFeedScreen extends React.Component {
     })
     .then((responseJson) => {
       if (responseJson.success) {
-        console.log(responseJson);
         let newName = responseJson.username.toLowerCase()
         this.setState({user: responseJson, username: newName})
       } else {

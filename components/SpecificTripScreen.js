@@ -47,8 +47,6 @@ export default class SpecificTripScreen extends React.Component {
     var driveDay = (d.getDate()).toString();
     var driveYear = (d.getFullYear()).toString();
 
-    console.log(this.props.navigation.state.params.trip.user.profile_URL)
-
     return (
       <LinearGradient colors={['#03001e', '#7303c0', '#ec38bc']} style={{height: Dimensions.get('window').height}}>
       <Header style={{backgroundColor: 'transparent'}}>
